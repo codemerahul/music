@@ -1,0 +1,26 @@
+{
+  "name": "music",
+  "version": "1.0.0",
+  "description": "MUSIC listings",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codemerahul/music.git"
+  },
+  "author": "Rahul singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codemerahul/music/issues"
+  },
+  "homepage": "https://github.com/codemerahul/music#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "mongojs": "^2.4.1",
+    "rxjs": "^5.4.2"
+  }
+}

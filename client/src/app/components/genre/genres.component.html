@@ -1,0 +1,22 @@
+<form class="well" (submit)="addGenre($event)">
+    <div class="form-group">
+        <input type="text" [(ngModel)]="name" name="name" class="form-control" placeholder="Add Genre...">
+    </div>
+</form>
+
+<div class="genre-list">
+    <div *ngFor="let genre of genres">
+                     <div class="col-md-7">
+                    {{genre.name}}
+                    </div>
+        <div class="col-md-4">
+            <input type="button" (click)="deleteGenre(genre._id)" value="Delete" class="btn btn-danger">
+        </div>
+        <br>
+        <br>
+    </div>
+</div>
+
+
+
+
