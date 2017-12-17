@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var mongojs = require('mongojs');
-var db = mongojs('mongodb://rahul:rahul123@ds133816.mlab.com:33816/playlist234', ['tracks']);
+var db = mongojs('', ['tracks']);
 
 // Get All Tasks
 router.get('/tracks', function (req, res, next) {
